@@ -72,7 +72,7 @@ public class DataReader {
 						break;
 
 					default:
-						System.out.println("None of the above");
+						System.out.println("Please check your code");
 						break;
 					}
 					
