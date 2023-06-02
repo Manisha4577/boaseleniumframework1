@@ -16,7 +16,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class DataReader {
 	
 	
-	
+	//Please review it
 	public Map<Integer, List<Object>> readxlsFile(String xlsFileName,String subsheet)
 	{
 		Map<Integer, List<Object>> map=new LinkedHashMap<Integer, List<Object>>();
@@ -72,7 +72,7 @@ public class DataReader {
 						break;
 
 					default:
-						System.out.println("None of the above");
+						System.out.println("Please check your code");
 						break;
 					}
 					
